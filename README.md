@@ -5,15 +5,15 @@
     <title>Ofertas de Frutas y Verduras</title>
     <style>
         body {
-            background-color: green;
+            background-color: #FFD700;
             color: black;
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
         }
         header {
-            background-color: #006400;
-            padding: 20px;
+            background-color: #000;
+            padding: 50px;
             text-align: center;
         }
         header h1 {
@@ -22,7 +22,7 @@
         }
         h2 {
             text-align: center;
-            color: white;
+            color: black;
             font-size: 24px;
         }
         .container {
@@ -78,14 +78,24 @@
         .boton-regreso:hover {
             background-color: #004d00;
         }
+
+           footer {
+            background-color: white; /* Negro */
+            color: black;
+            text-align: center;
+            padding: 10px;
+            border: 2px solid;
+        }
+
     </style>
 </head>
 <body>
     <header>
-        <h1>Ofertas de Frutas y Verduras en Línea</h1>
+        <h1>Ofertas de Frutas y Verduras</h1>
     </header>
-
+     <a href="file:///C:/xampp/htdocs/DW/ProyectoFinal/imagen.html" class="boton-regreso">Volver al Inicio</a>
     <div class="container">
+
         <h2>Frutas en Oferta</h2>
         <div class="frutas">
             <div class="fruta oferta">
@@ -196,7 +206,15 @@
            
         </div>
 
-        <a href="#" class="boton-regreso">Regresar al Inicio</a>
+        
     </div>
+
+  
+<footer>
+    <h2>Frutería "El Plátano Riendo"</h2>
+    <p>&copy; 2024 Todos los derechos reservados</p>
+
+</footer>
+
 </body>
 </html>
